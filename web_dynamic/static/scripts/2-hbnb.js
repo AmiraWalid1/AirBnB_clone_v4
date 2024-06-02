@@ -1,5 +1,5 @@
-# comment here
-#1-hbnb
+// comment here
+//1-hbnb
 $('document').ready(function () {
   let amenities = {};
   $('INPUT[type="checkbox"]').change(function () {
@@ -11,7 +11,7 @@ $('document').ready(function () {
     $('.amenities H4').text(Object.values(amenities).join(', '));
   });
 });
-#2-hbnb.
+//2-hbnb.
  $.get('http://0.0.0.0:5001/api/v1/status/', function (data, status_code) {
         if (data.status === 'OK') {
 	  $('div#api_status').addClass('available');
